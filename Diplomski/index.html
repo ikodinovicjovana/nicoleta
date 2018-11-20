@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="Resources/favicons/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="Vendors/css/grid.css">
+	<link rel="stylesheet" type="text/css" href="Vendors/css/ionicons.min.css">
+	<link rel="stylesheet" type="text/css" href="Vendors/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="Resources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="Resources/css/queries.css">
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i" rel="stylesheet">
+	<title>Nicoleta's maderotherapy</title>
+
+
+</head>
+<body>
+	<header>
+		<audio id="myTune">
+	  		<source src="Resources/slide.mp3">	
+		</audio>
+		<nav>
+			<div id="top" class="animated bounceInDown slow">
+				<a href="index.html"><img src="Resources/img/logo1.png" class="logo"></a>
+				<a href="index.html"><img src="Resources/img/logo.png" class="logo-black"></a>
+				<ul class="main-nav js--main-nav">
+					<li onclick="document.getElementById('myTune').play()"><a href="#onama"> O nama</li>
+					<li onclick="document.getElementById('myTune').play()"><a href="#usluge"> Naše usluge</li>
+					<li onclick="document.getElementById('myTune').play()"><a href="#preporuke"> Preporuke</li>
+					<li onclick="document.getElementById('myTune').play()"><a href="#kontakt"> Kontakt</li>
+				</ul>
+				<a class="mobile-nav-icon js--nav-icon"><i class="icon ion-ios-menu"></i></a>
+			</div>
+		</nav>
+		<div class="baner-text-box">
+			<h1 class="animated bounceInDown slow">Zbogom celulitu.<br>Zdravo savršena linijo.</h1>
+			<a class="btn btn-full js--scroll-to-services animated bounceInUp slow" href="#">Izaberi svoj tretman</a>
+			<a class="btn btn-ghost js--scroll-to-usluge animated bounceInUp slow" href="#">Prikaži više</a>	
+
+		</div>
+	</header>	
+
+	<main>
+		<section class="section-usluge js--section-usluge">
+			<div class="row">
+				<h2>Uplovi u svet masaže</h2>
+				<p class="about-us">Zdravo, mi smo Nicoleta's Maderotherapy, tvoj personalni kozmetičar, maser i sagorevač celulita. Znamo da si zauzeta, s toga ti omogućavamo flexibilne termine i na jednom mestu nudimo sve što ti je potrebno za relaxaciju, svežinu i zategnut izgled. Dosta priče, pusti nas da se pobrinemo za tebe! </p>
+			</div>
+
+			<div class="row js--wp-1">
+				<div class="col span-1-of-3 box">
+					<i class="icon ion-ios-ribbon icon-big"></i>
+					<h3>Kvalifikovano osoblje</h3>
+					<p>Sertifikovani i obučeni maseri i kozmetičari Vama su na usluzi tokom čitavog boravka kod nas. 
+					</p>
+				</div>
+				<div class="col span-1-of-3 box">
+					<i class="icon ion-ios-leaf icon-big"></i>
+					<h3>Prirodni preparati</h3>
+					<p>100% organski i prirodni preparati nude perfektnu negu i osvežavanje kože, kao i regeneraciju.
+					</p>
+				</div>
+				<div class="col span-1-of-3 box">
+					<i class="icon ion-ios-rocket icon-big"></i>
+					<h3>Rapidan napredak</h3>
+					<p>Dokazano najbrži efekat skidanja celulita postignut maderoterapijom, najkraćim putem do života bez celulita.
+					</p>
+				</div>			
+			</div>
+		</section>
+
+		<section class="section-pics">
+			<ul class="pics-showcase clearfix">
+				<li>
+					<figure class="photo">
+						<img src="Resources/img/1.jpg">
+					</figure>
+				</li>
+				<li>
+					<figure class="photo">
+						<img src="Resources/img/2.jpg">
+					</figure>
+				</li>
+				<li>
+					<figure class="photo">
+						<img src="Resources/img/23.jpg">
+					</figure>
+				</li>
+				<li>
+					<figure class="photo">
+						<img src="Resources/img/21.jpg">
+					</figure>
+				</li>
+			</ul>
+			<ul class="pics-showcase clearfix">
+				<li>
+					<figure class="photo">
+						<img src="Resources/img/20.jpg">
+					</figure>
+				</li>
+				<li>
+					<figure class="photo">
+						<img src="Resources/img/25.jpg">
+					</figure>
+				</li>
+				<li>
+					<figure class="photo">
+						<img src="Resources/img/24.png">
+					</figure>
+				</li>
+				<li>
+					<figure class="photo">
+						<img src="Resources/img/26.jpg">
+					</figure>
+				</li>
+			</ul>		
+		</section>
+
+		<section class="section-about" id="onama">
+			<div class="row">
+				<h2>Upoznajte naš tim</h2>
+			</div>
+			<div class="row">
+				<div class="col span-1-of-2 about-box">
+					<picture>
+						<source media="(min-width: 650px)" srcset="Resources/img/28.jpg"  class="img-about js--wp-2" >
+						<img src="Resources/img/30.jpg" class="img-about js--wp-2">
+						<img src="Resources/img/25.jpg" class="img-about js--wp-2">
+					</picture>
+					
+				</div>
+				<div class="col span-1-of-2 about-box">
+					<div class="o-nama">
+						<div></div>
+						<p>Nicoleta's Maderotherapy postoji od maja 2018. godine. Tu smo da ugodimo i pružimo najbolju uslugu kakvu svako od vas zaslužuje. </p>
+						
+					</div>
+					<div class="o-nama">
+						<div></div>
+						<p>Naši sertifikovani maseri i kozmetičari su tu da Vam ugode, pruže osećaj kao kod kuće i potrude se da od nas odete zadovoljne i srećne.</p>
+						
+					</div>
+					<div class="o-nama">
+						<div></div>
+						<p>Samo zbog vas, drage dame, svakog dana od <time datetime="10:00">10h</time> pružamo usluge u Šapcu i Beogradu, s postojanjem mogućnosti proširenja.</p>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-services js--section-services" id="usluge">
+			<div class="row">
+				<h2>Izaberite svoj omiljeni tretman</h2>
+			</div>
+			<div class="row js--wp-3">
+				<div class="col span-1-of-4 box">
+					<img src="Resources/img/24.png">
+					<h3>Maderoterapija</h3>
+					<div class="description">
+					<p>Maderoterapija je poseban vid anticelulit masaže, koja se izvodi specijalno dizajniranim drvenim oklagijama, rolerima i kupama.</p>
+					</div>
+				</div>
+				<div class="col span-1-of-4 box">
+					<img src="Resources/img/23.jpg">
+					<h3>Relax masaže</h3>
+					<div class="description">
+					<p>Relaks masaža je upravo ono na šta njen naziv aludira. To je masaža koja se striktno koristi sa ciljem odmora i relaksacije svih delova tela.</p>
+					</div>
+				</div>
+				<div class="col span-1-of-4 box">
+					<img src="Resources/img/20.jpg">
+					<h3>Manikir</h3>
+					<div class="description">
+					<p>Gel Lakovi imaju izuzetnan sjaj i njihova jedinstvena gel struktura omogućava produženu trajnost uz maksimalni intenzitet boje.</p>
+					</div>
+				</div>
+				<div class="col span-1-of-4 box">
+					<img src="Resources/img/27.jpg">
+					<h3>Shakti koncept</h3>
+					<div class="description">
+					<p>Shakti u cilju ima redukciju celulita, smanjenje otoka i obima, poboljšan tonus kože kao i razgradnju masti i sprečavanje zadržavanja vode.</p>
+					</div>
+				</div>			
+			</div>
+		</section>
+
+		<section class="section-testimonials" id="preporuke">
+			<div class="row">
+				<h2>Naši klijenti ne mogu da žive bez nas</h2>
+			</div>
+			<div class="row">
+				<div class="col span-1-of-3">
+					<blockquote>
+						Otvaranje ovog salona mi je mnogo olakšalo. Uvek izlaze u susret mom slobodnom vremenu, prijatna atmosfera i ljubaznost osoblja mi ulepša dan nakon napornog posla. Efekti maderoterapije su vidljivi već nakon prve nedelje. Prezadovoljna sam.
+						<cite> <img src="Resources/img/niki.jpg"> Nikoleta Marjanovic, Milenijum</cite>
+					</blockquote>
+				</div>
+				<div class="col span-1-of-3">
+					<blockquote>
+						Masaža je perfektna! Ambijent je vrlo opuštajući i uvek se osećam prijatno kada dodjem kod vas. Manikir mi je promenio izgled noktiju i ruku što me oduševljava, a za to je zaslužna Nikoletina profesionalna veština. Zaista sve preporuke.
+						<cite> <img src="Resources/img/ivana.jpg"> Ivana Davidovic, Disciplina</cite>
+					</blockquote>
+				</div>
+				<div class="col span-1-of-3">
+					<blockquote>
+						U ovom salonu sam od otvaranja, uvek se osećam ugodno i dočekano za sve moje potrebe. Masaže su fascinantne, a depilacija je bezbolna. Ne mogu dovoljno pohvaliti osoblje i zahvaliti im, ali mogu svima reći da ne bih otišla nigde drugde. Dodjite i uverite se sami.
+						<cite> <img src="Resources/img/viki.jpg"> Violeta Vasiljevic, Cosmopolitan</cite>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-contact-form" id="kontakt">
+			<div class="row">
+				<h2>Kontaktirajte nas za sve što vas zanima</h2>
+			</div>
+			<div class="row">
+				<div class="col span-1-of-2">
+					<form method="post" action="#" class="contactform" accept-charset="utf-8" autocomplete="on">
+						<div class="row">
+							<div class="col span-1-of-3">
+								<label for="name">Ime</label>
+							</div>
+							<div class="col span-2-of-3">
+								<input type="text" name="name" id="name" placeholder="Vase ime" required>
+							</div>
+						</div>	
+						<div class="row">
+							<div class="col span-1-of-3">
+								<label for="email">Email</label>
+							</div>
+							<div class="col span-2-of-3">
+								<input type="email" name="email" id="email" placeholder="Vas email" required>
+							</div>
+						</div>	
+						<div class="row">
+							<div class="col span-1-of-3">
+								<label>Kako ste nas nasli?</label>
+							</div>
+							<div class="col span-2-of-3">
+								<select name="find-us" id="find-us">
+									<option value="friends" selected="">Preporuka</option>
+									<option value="search">Pretraživac</option>
+									<option value="instagram">Instagram</option>
+									<option value="other">Nešto drugo</option>
+								</select>
+							</div>
+						</div>	
+						<div class="row">
+							<div class="col span-1-of-3">
+								<label for="sub">Subscribe</label>
+							</div>
+							<div class="col span-2-of-3">
+								<input type="checkbox" name="sub" id="sub" checked> Da, molimo Vas!
+							</div>
+						</div>	
+						<div class="row">
+							<div class="col span-1-of-3">
+								<label for="message">Pisite nam</label>
+							</div>
+							<div class="col span-2-of-3">
+								<textarea name="message" placeholder="Vaša poruka"></textarea>
+							</div>
+						</div>	
+						<div class="row">
+							<div class="col span-1-of-3">
+								<label>&nbsp;</label>
+							</div>
+							<div class="col span-2-of-3">
+								<input type="submit" value="Posalji!">
+							</div>
+						</div>	
+
+					</form>
+				</div>
+			
+			<div class="col span-1-of-2">
+				<div class="container mt-5 mb-5">
+					<div class="row">
+						<div class="col-md-6 offset-md-3">
+							<h4>Vesti</h4>
+								<ul class="timeline">
+									<li>
+										<a class="title" href="#">Specijalna ponuda</a>
+										<a href="#" class="float-right"><time datetime="2018-09-21">21 Septembar, 2018</time></a>
+										<p>Ovog oktobra ocekuju Vas razne pogodnosti! Uz svaki manikir dobijate gratis masazu ruku, a uz svaki tretman lica gratis masaza. Jos mnogo toga je u ponudi, zakazite svoj termin i svaku petu maderoterapiju dobijate besplatno!</p>
+									</li>
+									<li>
+										<a class="title" href="#">Vazno Obavestenje!</a>
+										<a href="#" class="float-right"><time datetime="2018-08-04">4 Avgust, 2018</time></a>
+										<p>Drage dame, u periodu od 7. avgusta do 17. salon nece raditi zbog godisnjeg odmora. Zakazivanja su moguca vec sada za naredni period. Morski pozdrav od Nicolete :)</p>
+									</li>
+									<li>
+										<a class="title" href="#">SHAKTI</a>
+										<a href="#" class="float-right"><time datetime="2018-07-13">13 Jul, 2018</time></a>
+										<p>Donosim Vam novi koncept u redukciji celulita koji je PRIRODAN. Pored toga, Shakti ima za cilj smanjenje otoka i obima, poboljsan tonus koze kao i razgradnju masti i sprecavanje zadrzavanja vode.</p>
+									</li>
+								</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="row">
+			<div class="col span-1-of-2">
+				<ul class="footer-nav">
+					<li><a href="#onama"> O nama</li>
+					<li><a href="#usluge"> Naše usluge</li>
+					<li><a href="#preporuke"> Preporuke</li>
+					<li><a href="#kontakt"> Kontakt</li>
+				</ul>
+			</div>
+			<div class="col span-1-of-2">
+				<ul class="social-links">
+					<li><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+					<li><i class="icon ion-ios-home"> Gundulicev venac 8</i></li>
+					<li><i class="icon ion-ios-call"></i> +381/69 3013900</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<details>
+			  <summary>Copyright &copy; 2018.</summary>
+			  <p> - by <mark>Jovana Ikodinović</mark>.</p>
+			  <p> All Rights Reserved.</p>
+			</details>
+		</div>
+	</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="Vendors/js/jquery.waypoints.min.js"></script>
+<script src="Resources/js/script.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

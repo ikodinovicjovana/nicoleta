@@ -1,0 +1,129 @@
+/* big tablet to 1200px(width smaller than the 1140 px row) */
+@media only screen and (max-width:  1200px) {
+	.baner-text-box{
+		width: 100%;
+		padding: 0 2%;
+	}
+
+	header { padding: 0 2%; }
+
+	.row {padding: 0 2%; }
+
+	
+}
+
+
+
+/* small tablet to big tablet from 768 to 1023px */
+@media only screen and (max-width:  1023px) {
+	body {font-size: 18px; }
+	section {padding: 60px 0;}
+
+	.about-us {
+		width: 80%;
+		margin-left: 10%;
+	 }
+
+	 .about-box { margin-top: 10px; }
+	 .about-box:last-child {margin-top: 10px; }
+	 .o-nama {margin-bottom: 40px;}
+	 .o-nama:last-of-type { margin-bottom: 60px; }
+
+	 .img-about { width: 75%; }
+
+	 .contact-form {width: 80%; }
+}
+
+
+
+/* small phones to small tablets from 481 to 767px */
+@media only screen and (max-width:  767px) {
+	body {font-size: 16px;}
+	section {padding: 30px 0; }
+
+	.row,
+	.baner-text-box {padding: 0 4%; }
+
+	.col {
+		width: 100%;
+		margin: 0 0 4% 0;
+	 }
+
+	.main-nav {display: none; }
+	.mobile-nav-icon {
+		display: inline-block;
+		margin-right: 20px;
+	}
+
+	.main-nav {
+		float: left;
+		margin-top: 30px;
+		margin-left: 25px;
+	}
+
+	.main-nav li {
+		display: block;
+		margin-top: 10px;
+	}
+
+	.main-nav li a:link
+	.main-nav li a:visited {
+		display: block;
+		border: 0;
+		padding: 10px 0;
+		font-size: 100%;
+	}
+
+
+
+	.sticky .main-nav li a:link,
+	.sticky .main-nav li a:visited {
+		padding: 10px 0;
+		color: #555;
+		
+	}
+
+	.sticky .main-nav { margin-top: 7px; }
+	.sticky .mobile-nav-icon i { color: #555;}
+	.sticky .mobile-nav-icon {
+		 margin-top: 10px;
+		 margin-right: 20px;
+	}
+
+	
+
+
+	h1 {font-size: 180%; }
+	h2 {font-size: 150%; }
+
+	.about-us {
+		width: 100%;
+		margin-left: 0%;
+	 }
+
+
+	 .o-nama {margin-bottom: 20px;}
+	 .o-nama:last-of-type { margin-bottom: 20px; }
+
+	 .o-nama div {
+		
+		height: 40px;
+		width: 40px;
+		padding: 4px;
+		margin-right: 15px;
+		font-size: 120%;
+	}
+
+	.img-about { width: 65%; }
+
+	.about-box:first-child { text-align: center;}
+}
+
+
+/* small phones from 0 to 480px */
+@media only screen and (max-width:  480px) {
+	section {padding: 25px 0; }
+	.contact-form {width:  100%; }
+
+}
+
